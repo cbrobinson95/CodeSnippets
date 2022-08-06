@@ -160,7 +160,7 @@ return
 Gui, Submit
 
 if (Index = "" and DNSprimary = "") {
-    MsgBox, 0,, How tf am I supposed to know what you're trying to do if you don't tell me the Interface Index or a DNS server
+    MsgBox, 0,, Index and Primary DNS cannot be blank!
     Gui, 2:Destroy
     gosub DNS2
 } else if (Index = "") {
